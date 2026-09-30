@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>아웃런: 보더콜리 양몰이 — sjhong</title>
+<meta name="description" content="손끝으로 보더콜리를 움직여 알프스의 양떼를 우리로 몰아넣는 모바일 게임. 개발: sjhong">
+<link rel="icon" href="assets/favicon.png">
+<style>
+:root{--paper:#F4EFE6;--paper2:#EAE2D2;--ink:#2E3192;--pink:#FF48B0;--blue:#0078BF;--yellow:#FFE800}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',system-ui,sans-serif;line-height:1.6;word-break:keep-all}
+a{color:var(--ink)}
+.wrap{max-width:880px;margin:0 auto;padding:0 16px}
+header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+header .dev{font-weight:900;letter-spacing:.04em}
+header nav a{font-weight:700;margin-left:16px;text-decoration:none;border-bottom:2px solid var(--pink)}
+.hero{border:2px solid var(--ink);border-radius:12px;overflow:hidden;box-shadow:4px 3px 0 var(--pink),-2px -1px 0 var(--blue)}
+.hero img{display:block;width:100%;height:auto}
+.title{display:flex;gap:18px;align-items:center;margin:28px 0 8px}
+.title img{width:88px;height:88px;border-radius:20px;border:2px solid var(--ink)}
+h1{font-size:clamp(26px,5vw,38px);line-height:1.15;margin:0;font-weight:900;text-shadow:2px 1px 0 rgba(255,72,176,.55)}
+.tag{margin:4px 0 0;font-weight:700;opacity:.8}
+.badges{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.badge{font-weight:800;border:2px solid var(--ink);border-radius:10px;padding:8px 14px;background:var(--yellow);box-shadow:3px 3px 0 var(--ink)}
+.badge.soon{background:var(--paper2);box-shadow:none;opacity:.8}
+section{margin:36px 0}
+h2{font-size:22px;margin:0 0 10px;font-weight:900}
+ul.feat{padding-left:20px}
+ul.feat li{margin:6px 0}
+.shots{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.shots img{width:100%;height:auto;border-radius:12px;border:2px solid var(--ink)}
+@media (max-width:640px){.shots{grid-template-columns:repeat(2,1fr)}}
+footer{border-top:2px solid var(--ink);margin-top:48px;padding:18px 0 40px;font-size:14px}
+footer a{margin-right:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><span class="dev">sjhong</span><nav><a href="privacy.html">개인정보처리방침</a><a href="mailto:bio32177@gmail.com">문의</a></nav></header>
+  <div class="hero"><img src="assets/hero.jpg" alt="알프스 운해 위로 솟은 봉우리와 돌담 우리, 목동과 보더콜리" width="1024" height="500"></div>
+  <div class="title">
+    <img src="assets/icon.png" alt="아웃런 아이콘" width="88" height="88">
+    <div><h1>아웃런: 보더콜리 양몰이</h1><p class="tag">알프스의 아침 · 손끝으로 모는 양떼</p></div>
+  </div>
+  <div class="badges"><span class="badge soon">Google Play 출시 예정</span><span class="badge soon">App Store 출시 예정</span></div>
+
+  <section>
+    <h2>게임 소개</h2>
+    <p>알프스의 이른 아침, 목동의 휘파람이 울리면 당신은 보더콜리가 됩니다. 화면을 누르고 있으면 보더콜리가 그곳으로 달려가요.
+    개 가까이를 누르면 몸을 낮추고 살금살금, 멀리 누르면 전속력으로 질주합니다. 흩어진 양들을 한 무리로 모아 돌담 우리로 몰아넣으세요.</p>
+    <ul class="feat">
+      <li><b>해가 시계예요</b> — 해가 초원을 타고 올라와 우리에 닿기 전에 끝내면 별 두 개, 더 빨리 끝내면 별 세 개.</li>
+      <li><b>성격이 다른 양들</b> — 겁쟁이, 큰 뿔 숫양, 어미를 따라다니는 어린 양.</li>
+      <li><b>15개 스테이지</b> — 아침 초원, 안개 낀 계곡, 높은 알프스.</li>
+      <li><b>동료 보더콜리</b> — 막히는 스테이지에서는 광고를 보고 동료를 불러 함께 몰 수 있어요.</li>
+      <li><b>인쇄물 같은 그림</b> — 리소그래프 판화처럼 찍어 낸 알프스 풍경.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>스크린샷</h2>
+    <div class="shots">
+      <img src="assets/03-intro.jpg" alt="스테이지 소개 화면" width="430" height="932" loading="lazy">
+      <img src="assets/04-play.jpg" alt="양떼를 모는 플레이 화면" width="430" height="932" loading="lazy">
+      <img src="assets/05-alps.jpg" alt="카메라를 기울여 알프스가 보이는 화면" width="430" height="932" loading="lazy">
+      <img src="assets/06-result.jpg" alt="별 세 개를 받은 클리어 화면" width="430" height="932" loading="lazy">
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 sjhong · 문의 <a href="mailto:bio32177@gmail.com">bio32177@gmail.com</a></p>
+    <p><a href="privacy.html">개인정보처리방침</a><a href="privacy.html#en">Privacy Policy</a></p>
+  </footer>
+</div>
+</body>
+</html>

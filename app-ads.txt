@@ -1,0 +1,2 @@
+# app-ads.txt for Outrun (developer: sjhong)
+# The AppLovin line from the dashboard (MAX > app-ads.txt) goes below once the account is approved.
